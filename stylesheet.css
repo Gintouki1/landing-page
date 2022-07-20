@@ -1,6 +1,5 @@
 .main-container {
     display: flex;
-    border: red  solid 1px;
     flex-direction: column;
     
 }
@@ -17,7 +16,6 @@
 .container-one{
     display: flex;
     background-color: #1f2937;
-    border: red solid 1px;
     justify-content: space-between;
     flex-direction: row;
     padding-left: 20%;
@@ -60,7 +58,6 @@
     display: flex;
     background-color: #e5e7eb;
     padding: 128px;
-    padding-bottom: 0%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -71,6 +68,7 @@
     font-size: 36px;
     color: #1f2937;
     width: 50%;
+    
    
 }
 .quote-credit {
@@ -85,13 +83,50 @@
 
 .container-four {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px;
+}
+
+.action-container{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 128px;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.action-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+
+.sign-up-2{
+    font-size: 18px;
+    width: 140px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    height: 38px;
+    border-radius: 8px;
+    border: #f9faf8 2px solid;
 }
 
 h1 {
     color: #f9faf8;
-    border: 1px solid green;
     font-size: 24px;
-    
 }
 
 .information-title {
@@ -103,7 +138,6 @@ h1 {
 
 .title {
     color: #f9faf8;
-    order: red solid 1px;
     font-size: 48px;
     font-weight: 800;
 }
@@ -132,13 +166,20 @@ h1 {
     max-width: 600px;
     max-height: 240px;
     border-radius: 10%;
-   
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .link {
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 
 a{
@@ -152,7 +193,7 @@ p {
     color: #e5e7eb;
     font-size: 18px;
     margin: 0%;
-    padding-top: 8px;
+    padding-top: 0px;
     padding-bottom: 8px;
 }
 
@@ -160,6 +201,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0%;
+    margin: 0%;
 }
 
 img {
